@@ -20,6 +20,7 @@ module.exports = {
     "public/**/*",
     "node_modules",
     ".next",
+    "coverage",
   ],
   rules: {
     "react/jsx-props-no-spreading": "off",
