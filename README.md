@@ -34,12 +34,35 @@ Within your eslintrc file, add this package as the last item in your extends arr
 
 ```json
 {
-  "extends": ["existing configs...", "@sun33t"]
+  "extends": [
+    "existing configs...",
+    "@sun33t/eslint-config/[path-to-config-file]"
+  ]
 }
 ```
 
-There's currently only one configuration available and it's the default, as such you don't
-need to specify the package's full name in the extends array.
+## Configurations
+
+**Default** - This is the eslint-config-airbnb for react + node, which also included eslint-config-prettier. It can be added as follows:
+
+```json
+{
+  "extends": ["existing configs...", "@sun33t"]
+}
+// or
+{
+  "extends": ["existing configs...", "@sun33t/eslint-config"]
+}
+
+```
+
+**NextJS - JavaScript** - This is the same configuration as above, but with some modification specific to NextJS projects which I create in JavaScript
+
+```json
+{
+  "extends": ["existing configs...", "@sun33t/eslint-config/javascript/next"]
+}
+```
 
 ## Authors
 
