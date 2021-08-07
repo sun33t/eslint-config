@@ -2,7 +2,10 @@
   "name": "@sun33t/eslint-config",
   "version": "1.0.3",
   "main": "index.js",
-  "repository": "git@github:sun33t/eslint-configs.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sun33t/eslint-configs"
+  },
   "author": "Suneet Misra <hello@suneet.codes>",
   "license": "MIT",
   "devDependencies": {
