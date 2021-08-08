@@ -35,7 +35,7 @@ module.exports = {
         devDependencies: [
           "**/*.test.{js,jsx}",
           "**/*.spec.{js,jsx}",
-          "setupTests.js",
+          "**/setupTests.js",
         ],
       },
     ],
